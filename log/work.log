@@ -1,0 +1,20 @@
+ 
+ -------------- celery@zhangxindeMBP.lan v4.3.0 (rhubarb)
+---- **** ----- 
+--- * ***  * -- Darwin-18.7.0-x86_64-64bit 2019-08-18 14:59:15
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         celery_app:0x10a7bdcd0
+- ** ---------- .> transport:   redis://localhost:6379/1
+- ** ---------- .> results:     redis://localhost:6379/2
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . app.task1.sendMsg
+  . app.task2.sendMsg
+

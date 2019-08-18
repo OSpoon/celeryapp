@@ -1,0 +1,10 @@
+celery beat v4.3.0 (rhubarb) is starting.
+__    -    ... __   -        _
+LocalTime -> 2019-08-18 14:59:14
+Configuration ->
+    . broker -> redis://localhost:6379/1
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> celery.beat.PersistentScheduler
+    . db -> celerybeat-schedule
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 minutes (300s)

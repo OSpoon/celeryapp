@@ -1,0 +1,22 @@
+[I 190818 14:59:14 command:136] Visit me at http://127.0.0.1:9999
+[I 190818 14:59:14 command:141] Broker: redis://localhost:6379/1
+[I 190818 14:59:14 command:144] Registered tasks: 
+    ['celery.accumulate',
+     'celery.backend_cleanup',
+     'celery.chain',
+     'celery.chord',
+     'celery.chord_unlock',
+     'celery.chunks',
+     'celery.group',
+     'celery.map',
+     'celery.starmap']
+[I 190818 14:59:14 mixins:229] Connected to redis://localhost:6379/1
+[W 190818 14:59:19 control:44] 'stats' inspect method failed
+[W 190818 14:59:19 control:44] 'active_queues' inspect method failed
+[W 190818 14:59:19 control:44] 'registered' inspect method failed
+[W 190818 14:59:19 control:44] 'scheduled' inspect method failed
+[W 190818 14:59:19 control:44] 'active' inspect method failed
+[W 190818 14:59:19 control:44] 'reserved' inspect method failed
+[W 190818 14:59:19 control:44] 'revoked' inspect method failed
+[W 190818 14:59:19 control:44] 'conf' inspect method failed
+[I 190818 15:01:02 command:44] SIGTERM detected, shutting down
